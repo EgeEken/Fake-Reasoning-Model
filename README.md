@@ -124,7 +124,7 @@ Hypothesis 2: It’s the fake thinking, by spending extra tokens that aren’t h
 
 ## Further testing
 
-Khalil suggested doing two things:
+My internship tutor suggested doing two things:
 
 1. Normalizing the differences rather than getting the direct numbers
 2. Fine-tuning the base model on the same dataset, without the fake thinking prefixes, as a control group so that we know if it’s the dataset or the fake thinking tokens (Hypothesis 1 or 2)
