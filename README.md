@@ -86,7 +86,7 @@ There are indeed some baffling outliers where the LoRA seems to just randomly pe
 
 But overall, results were largely identical in terms of ability, there are certain cases where one model gives a correct answer while the other fails but there’s no statistically significant difference in accuracy, the LoRA model performs ever so slightly better in terms of accuracy, but the 0.3% difference could just be explained by randomness better than anything.
 
-However, there is a significant distinction in average **difference** to the correct answer, which was surprising.
+However, i noticed that in a lot of the examples, even when both models were wrong, the LoRA fine-tuned model would only be off by a little bit usually, while the base model could be very far off. And checking the stats on just how far off each response is, there is a significant distinction in average difference to the correct answer, which was surprising.
 
 ![image.png](Fake%20Reasoning%20Model%20Mini-Project/image%205.png)
 
